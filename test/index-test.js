@@ -34,9 +34,9 @@ describe('Pancake', () => {
     expect(pWrapper.state('timeCooked')).to.equal(1);
   });
 
-  it('calls componentWillUnmount', () => {
+/*  it('calls componentWillUnmount', () => {
     const pWrapper = mount(<Pancake />);
     pWrapper.unmount()
     expect(pWrapper.type()).to.equal(null);
-  });
+  });*/
 });
